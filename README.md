@@ -1,0 +1,3 @@
+Fullstack web application developed using React for the frontend and Flask for the backend. The application includes features such as user registration, login, and logout, with authentication and session management handled securely on the backend. 
+
+The database is developed in mySQL and it consists of two tables. One table is called “user” and has the columns named id, name, matriculation, email, password, and user_type. This table generally stores the user’s data. The other table is called “sessions”. It consists of the columns named as id, user_email, session_id, created_at and status. The purpose of this table is to keep the log of users and manage the sessions.
